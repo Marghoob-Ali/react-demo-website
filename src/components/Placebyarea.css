@@ -1,0 +1,47 @@
+.PlaceMainDiv{
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.headingDiv{
+    width: 100%;
+    color: #422aa2;
+}
+.ImagesDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+}
+.image {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    align-items: center;
+
+}
+.P{
+    position: relative;
+    margin-bottom: 30px;
+    font-size: x-large;
+    width: 150px;
+
+}
+.imagesDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+@media (max-width:768px){
+    .PlaceMainDiv{
+        width: 768px;
+    }
+    .image{
+        width: 200px;
+    }
+}

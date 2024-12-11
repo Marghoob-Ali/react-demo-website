@@ -1,0 +1,113 @@
+.selection-bar{
+  position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 10px; 
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+    top: 70px;
+  }
+  .bar{
+    position: relative;
+    width: 230px;
+    height: 50px;
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 50%;
+    background-color: white;
+    text-align: initial;
+    font-size: 100%;
+    }
+  .button-bar{
+    position: relative;
+    width: 200px; 
+    height: 50px;
+    border: none;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: #422aa2;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+  }
+  .mainslidebar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    height: 500px;
+    margin: 50px;
+    margin-bottom: -30px;
+    
+  }
+  .slidebar-Heading{
+    color: #422aa2;
+    font-size: 30px;
+    height: auto;
+  }
+  .slidebar {
+    position: relative;
+    display: flex;
+    height: 500px;
+    gap: 30px;
+    overflow-x: scroll;
+
+  }
+  
+  .slidebar img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    
+  }
+  
+  .slidebar span {
+    font-size: 14px;
+    color: #666;
+    display: block;
+    margin-top: 8px;
+  }
+  
+  .slidebar h2 {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #333;
+  }
+  .slidebar-B {
+    background: none;           
+    border: 1px solid blue;     
+    color: blue;                 
+    font-size: 16px;            
+    padding: 10px 20px;          
+    cursor: pointer;             
+    border-radius: 5px;          
+    transition: all 0.3s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 130px;
+    height: 50px;
+}   
+.Slidebar-Button {
+    position: relative;
+    display: flex;             
+    justify-content: center;    
+    align-items: center;        
+    width: 100%;                
+    margin-top: 30px;    
+    margin: 20px;       
+}
+.slidebar-B:hover{
+    border-color: #0056b3;
+    border: 2px solid #0056b3;
+}
+@media (max-width:650px){
+  .selection{
+    width: 680px;
+  }
+  .mainslidebar{
+    width: 650px;
+    height: 400px;
+  }
+}

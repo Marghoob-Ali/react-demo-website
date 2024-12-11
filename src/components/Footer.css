@@ -1,0 +1,48 @@
+.Footer {
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    background-color: #ebe9f6;
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+    align-items: first baseline;
+}
+.Footer-div1{
+    align-items: start;
+    text-align: start;
+    justify-content: start;
+    margin: 50px;
+    width: 500px;
+}
+.Footer-div{
+    margin: 50px;
+}
+.FooterH{
+    font-size: medium;
+
+}
+.FooterP{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px){
+    .Footer{
+        width: 768px;
+        flex-direction: column ;
+        align-items: center;
+
+    }
+    .FooterH{
+        margin-bottom: 3px;
+    }
+    .Footer-div{
+        margin: 0;
+    }
+    .Footer-div1{
+        margin-bottom: 5px;
+    }
+}
