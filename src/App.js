@@ -63,7 +63,7 @@ function App() {
           </div>
         </nav>
 
-        {/* <div className="maindiv1">
+        <div className="maindiv1">
           <div className="div1">
             <div className="childdiv1">
               <span style={{ color: "#402b9e", display: "inline" }}>
@@ -77,7 +77,7 @@ function App() {
                 {" "}
                 for any occasion
               </span>
-            </div> */}
+            </div>
             <div className="childdiv2">
               <p className="p1">
                 Focus on the event, and the venue is on us - just choose one
